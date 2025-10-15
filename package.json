@@ -1,0 +1,25 @@
+{
+  "name": "pw-lna-repro",
+  "version": "1.0.0",
+  "description": "Repro for Playwright LNA issue",
+  "homepage": "https://github.com/jgoz/pw-lna-repro#readme",
+  "bugs": {
+    "url": "https://github.com/jgoz/pw-lna-repro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgoz/pw-lna-repro.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 -m http.server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "playwright": "^1.56.0"
+  }
+}
